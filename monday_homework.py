@@ -1,4 +1,4 @@
-
+#Homework 1
 num_1 = int(input("First number:"))
 num_2 = int(input("Second number:"))
 
@@ -25,3 +25,12 @@ while True:
     else:
         print("Goodbye")
         break
+
+#Home work 2
+
+rows = int(input("Enter number of rows: "))
+
+for i in range(rows):
+    for j in range(i+1):
+        print("X ", end="")
+    print("\n")
