@@ -34,3 +34,28 @@ for i in range(rows):
     for j in range(i+1):
         print("X ", end="")
     print("\n")
+
+
+eye = {
+    "derek" :
+        "first_name": "Derek",
+        "last_name": "Mcnerney",
+        "eye_color": "Blue"
+
+    "lucas": {
+        "first_name": "Lucas",
+        "last_name": "Lang",
+        "eye_color": "Hazel"
+    }
+    "racheal":{
+        "first_name": "Rachael",
+        "last_name": "Something",
+        "eye_color": "Blue"
+    }
+
+for i in information.items():
+    print(i[1]["eye"])
+
+a_list = [23, 3, 94, 43, 2]
+
+sorted(a_list)
